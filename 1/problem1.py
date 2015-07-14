@@ -8,3 +8,7 @@ def problem1():
     print(score)
     
 problem1()
+
+
+# Alerte Spoiler: 
+# réponse = 636456
