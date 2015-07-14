@@ -10,4 +10,8 @@ def sum_digits(n):
 
 def problem6():
     sum_digits(math.factorial(2013))
+
 problem6()
+
+# Alerte Spoiler:
+# réponse = 24021
