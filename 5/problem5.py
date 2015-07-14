@@ -8,4 +8,8 @@ def sum_digits(n):
 
 def problem5():
     sum_digits(2**2222)
+
 problem5()
+
+# Alerte Spoiler:
+# réponse = 2830
