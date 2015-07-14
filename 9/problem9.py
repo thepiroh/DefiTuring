@@ -10,3 +10,7 @@ def problem9():
 problem9()
 
 # algorithme couteux en complexité
+
+
+# Alerte Spoiler:
+# réponse = 1654329600
