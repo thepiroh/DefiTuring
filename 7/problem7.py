@@ -12,7 +12,7 @@ def problem7():
                 compteur+=1
                 if compteur == 23456:
                     break
-    print(liste[23455])
+    print(liste[23456 - 1])
     
 problem7()
 
