@@ -1,13 +1,13 @@
 def problem10(n):
-    size = n//2
-    sieve = [1]*size
+    taille = n//2
+    filtre = [1]*taille
     limit = int(n**0.5)
     for i in range(1, limit):
-        if sieve[i]:
+        if filtre[i]:
             val = 2*i+1
             tmp = ((size-1) - i)//val
-            sieve[i+val::val] = [0]*tmp
-    print(sum([2] + [i*2+1 for i, v in enumerate(sieve) if v and i>0]))
+            filtre[i+val::val] = [0]*tmp
+    print(sum([2] + [i*2+1 for i, v in enumerate(filtre) if v and i>0]))
 
 
 problem10(10000000)
